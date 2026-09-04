@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-navy-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-gold-500 text-white font-bold rounded-full hover:bg-gold-600 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2 shadow-lg hover:shadow-xl;
+  }
+
+  .btn-gold-outline {
+    @apply inline-flex items-center justify-center px-8 py-4 border-2 border-gold-500 text-gold-600 font-bold rounded-full hover:bg-gold-50 transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-lg border border-slate-100 p-6 hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-gold-500 transition-colors duration-200 outline-none bg-white;
+  }
+
+  .label-text {
+    @apply block text-sm font-medium text-navy-700 mb-2;
+  }
+
+  .error-text {
+    @apply text-red-500 text-sm mt-1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}

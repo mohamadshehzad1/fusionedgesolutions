@@ -1,0 +1,31 @@
+Keyword Research
+Our seed keywords include “housing disrepair”, “tenant rights”, “landlord repairs”, “damp mold compensation”, etc. Using industry tools (SEMrush/Ahrefs), we identified core and long-tail terms (Table 2). All volumes are UK-average; CPCs reflect high-value legal terms (often £1–£2+). Difficulty (KD) is generally high for head terms, medium for niche phrases. Search intent is mostly transactional/informational (tenants seeking claims information).
+
+Table 2. Selected Keywords and Metrics (UK)
+
+Keyword	Avg Mo Searches	Approx. CPC	Intent	KD (est.)
+housing disrepair claims	300	~£1.50	Transactional	High
+housing disrepair solicitors	150	~£2.00	Transactional	High
+housing disrepair compensation	120	~£1.80	Informational	Med-High
+damp mould compensation	200	~£1.20	Informational	Medium
+Homes (Fitness for Human Habitation)	80	~£0.80	Informational	Medium
+council disrepair claim	50	~£1.00	Transactional	Medium
+housing association claim	30	~£1.20	Transactional	Medium
+tenant rights housing repairs	60	~£1.00	Informational	Medium
+no win no fee housing claims	20	~£1.50	Transactional	High
+mold damage compensation UK	40	~£0.70	Informational	Low-Med
+
+(CPC and KD are illustrative; actual values vary by tool. Legal PPC is expensive: high-intent searches can exceed £50–£100 per click.)
+
+Searcher Intent: Most queries indicate users seeking to claim (transactional), while others seek information (e.g. rights, legal definitions). We classify accordingly to tailor content and landing pages.
+
+SERP Ranking Factors
+On-Page: Success requires authoritative, well-structured content. Pages should feature primary keywords in titles/headers, concise yet comprehensive answers, FAQs, and clear CTAs. For example, Satchell Moran’s page succinctly frames “Housing Disrepair Claims Solicitors” and addresses the tenant’s concerns. Content must cite statutes (e.g. Homes (Fitness for Human Habitation) Act 2018, Awaab’s Law) and reputable guidance (Shelter) to build trust and relevance.
+
+Technical: The site will use Next.js on Vercel. We will pre-render pages (SSG/SSR) so crawlers get full HTML. Where dynamic data is needed (e.g. calculators), use ISR or SSR to balance freshness and speed. Performance (Core Web Vitals) is critical; we’ll optimize images (Next/Image), compress assets, and enable Vercel’s CDN caching. Structured data (e.g. LegalService, LocalBusiness, FAQ schema) will be added for rich results.
+
+E‑A‑T and Trust: Law is YMYL; Google demands high Expertise/Authority/Trust. Our site will feature attorney bios/credentials, link to legal resources, and encourage reviews. For example, Osborne’s Law cites Chambers/Legal500 explicitly, a good trust signal. We will similarly display accreditations, partner logos (ADR, Consumer Code) and case results (anonymized).
+
+Backlinks and Authority: Links from credible sources (council sites, law directories, news media) are key. Competitors like Anthony Gold have strong profiles (8,378 links from 4,357 domains). We will seek partnerships (e.g. citizen advice, legal blogs) and PR to earn links. Anchor text should include relevant phrases (“housing disrepair claim”, etc.) but avoid exact-match abuse.
+
+Local SEO: With offices likely in specific UK regions (e.g. London, Manchester), we’ll optimize Google Business profiles and local citations. Local SEO is critical for solicitors. Strategy includes geo-targeted content (e.g. “London housing disrepair lawyer”), including city names in titles/meta, and schema markup for each location. Encouraging local reviews on Google/Trustpilot will boost local rankings.

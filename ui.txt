@@ -1,0 +1,25 @@
+Content Strategy & Site Architecture
+A clear silo (pillar–cluster) structure is recommended. Pillar pages target broad themes with clusters of related pages:
+
+Pillar: Housing Disrepair Claims (Main Page)
+Covers introduction, scope of claims, and links to subtopics. Optimized for “housing disrepair claims”.
+Clusters:
+Types of Disrepair: e.g. Damp & Mould, Pest Infestations, Structural Faults, Heating/Electrics. Each cluster can cite Shelter (damp/mould cases).
+Legal Rights and Laws: The Homes (Fitness…) Act, Section 11 LTA, Statutory Nuisance, Awaab’s Law. A page could cite Shelter’s summary of the 2018 Act.
+Claims Process: Step-by-step guides (pre-action protocol, examples from Shelter’s advice). Include an FAQ (schema-marked) on common questions (e.g. “Can I claim for mould?”, “How long does it take?”).
+Calculators & Case Examples: A compensation estimator tool and anonymized case studies/success stories.
+FAQ and Blog: Regular articles on news (e.g. references to Coroner’s Awaab’s Law findings), Shelter/Gov updates, and more specific queries (e.g. “Can I withhold rent?” which Shelter cautions against).
+URL Examples:
+
+bash
+Copy
+/housing-disrepair-claims/            (pillar page)
+/housing-disrepair-claims/damp-mould/ 
+/housing-disrepair-claims/heating-issues/
+/housing-disrepair-claims/fitness-for-human-habitation-act/
+/housing-disrepair-claims/compensation-calculator/
+/housing-disrepair-claims/faq/
+/about-us/attorneys/
+/contact/quote-form/
+/blog/housing-disrepair-news/
+Each page will use clear templates with H1 headings, bullet lists, and tables where helpful (e.g. “Compensation table by symptom” as in Shelter content). Shelter’s content on compensation (e.g. compensation covers “clothes/furniture replacement, health impacts, stress”) informs our content templates.

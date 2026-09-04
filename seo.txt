@@ -1,0 +1,9 @@
+Technical SEO & Next.js/Vercel Notes
+We will implement Next.js with the App Router for modern routing. Key points:
+
+Rendering Strategy: Use Static Generation (SSG) for core pages (fast, cacheable) and Server-Side Rendering (SSR) or Incremental Static Regeneration (ISR) for any dynamic data (e.g. form responses, calculators). This ensures crawlers see full HTML.
+Routing: Use file-based routing; e.g. /pages/housing-disrepair/[topic].tsx for each cluster topic. Implement 301 redirects for any legacy paths.
+Performance: Optimize images with next/image, use modern formats (WebP), and lazy-load offscreen content. Enable HTTP/2 and Brotli on Vercel. Preload critical CSS/JS. Ensure Core Web Vitals targets (LCP <2.5s, FID <100ms).
+Meta & Schema: Configure meta tags per page (via next/head) for titles/descriptions. Add JSON-LD schemas: WebPage, LegalService (with firm info), Organization/LocalBusiness (with address/phone) and FAQPage schema on FAQ sections.
+Internationalization: Not needed beyond UK (no hreflang required).
+Hosting: Deploy on Vercel (auto CDN + edge caching). Use Vercel’s analytics for metrics. Configure redirects, rewrites in vercel.json if needed.
