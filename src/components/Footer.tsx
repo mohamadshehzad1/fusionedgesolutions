@@ -13,8 +13,8 @@ export default function Footer() {
               <Phone className="h-6 w-6" />
               <span className="text-lg font-bold">
                 Need housing disrepair advice? Call our team on{" "}
-                <a href="tel:+441618182458" className="underline decoration-2 underline-offset-2">
-                  0161 818 2458
+                <a href="tel:+441612437500" className="underline decoration-2 underline-offset-2">
+                  0161 243 7500
                 </a>
               </span>
             </div>
@@ -48,8 +48,8 @@ export default function Footer() {
               No Win, No Fee.
             </p>
             <div className="space-y-3 text-sm text-slate-400">
-              <a href="tel:+441618182458" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
-                <Phone className="h-4 w-4" /> 0161 818 2458
+              <a href="tel:+441612437500" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
+                <Phone className="h-4 w-4" /> 0161 243 7500
               </a>
               <a href="mailto:admin@fusionedgesolutions.co.uk" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
                 <Mail className="h-4 w-4" /> admin@fusionedgesolutions.co.uk

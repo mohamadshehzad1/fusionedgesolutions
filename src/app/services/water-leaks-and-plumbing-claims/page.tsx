@@ -45,7 +45,7 @@ export default function WaterLeaksPage() {
             <Link href="/contact/quote-form" className="inline-flex items-center gap-2 btn-gold">
               Start Leak Claim <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="tel:+441618182458" className="inline-flex items-center gap-2 btn-gold-outline">
+            <a href="tel:+441612437500" className="inline-flex items-center gap-2 btn-gold-outline">
               <Phone className="h-4 w-4" /> Call Free
             </a>
           </div>
@@ -102,7 +102,7 @@ export default function WaterLeaksPage() {
               <Link href="/contact/quote-form" className="inline-flex items-center gap-2 bg-navy-900 text-white font-bold px-10 py-4 rounded-full hover:bg-navy-800 transition-colors">
                 Start Your Claim <ArrowRight className="h-5 w-5" />
               </Link>
-              <a href="tel:+441618182458" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+441612437500" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-5 w-5" /> Call Free
               </a>
             </div>

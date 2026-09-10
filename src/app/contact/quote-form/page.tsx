@@ -242,9 +242,9 @@ export default function QuoteFormPage() {
           </form>
 
           <div className="mt-8 text-center">
-            <a href="tel:+441618182458" className="inline-flex items-center gap-2 text-navy-600 hover:text-gold-600 font-semibold">
+            <a href="tel:+441612437500" className="inline-flex items-center gap-2 text-navy-600 hover:text-gold-600 font-semibold">
               <Phone className="h-4 w-4" />
-              Prefer to call? 0161 818 2458
+              Prefer to call? 0161 243 7500
             </a>
           </div>
         </div>

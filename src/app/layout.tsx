@@ -60,7 +60,7 @@ const legalServiceSchema = {
   description:
     "Expert housing disrepair claims services for UK council and housing association tenants. No Win, No Fee.",
   url: "https://www.fusionedgesolutions.co.uk",
-  telephone: "+441618182458",
+  telephone: "+441612437500",
   email: "admin@fusionedgesolutions.co.uk",
   address: {
     "@type": "PostalAddress",
@@ -132,7 +132,7 @@ const organizationSchema = {
   logo: "https://www.fusionedgesolutions.co.uk/logo.png",
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+441618182458",
+    telephone: "+441612437500",
     contactType: "customer service",
     availableLanguage: "English",
   },
