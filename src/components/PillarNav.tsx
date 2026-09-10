@@ -39,9 +39,9 @@ export default function PillarNav() {
             <span className="w-px h-3 bg-slate-200" />
             <span>Free Assessment</span>
           </div>
-          <a href="tel:08001234567" className="flex items-center gap-1.5 text-navy-700 hover:text-gold-600 text-xs font-semibold transition-colors">
+          <a href="tel:+441618182458" className="flex items-center gap-1.5 text-navy-700 hover:text-gold-600 text-xs font-semibold transition-colors">
             <Phone className="h-3 w-3" />
-            0800 123 4567
+            0161 818 2458
           </a>
         </div>
       </div>
@@ -79,9 +79,9 @@ export default function PillarNav() {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <a href="tel:08001234567" className="flex items-center gap-1.5 text-navy-600 hover:text-gold-600 text-sm font-semibold transition-colors">
+            <a href="tel:+441618182458" className="flex items-center gap-1.5 text-navy-600 hover:text-gold-600 text-sm font-semibold transition-colors">
               <Phone className="h-4 w-4" />
-              <span>0800 123 4567</span>
+              <span>0161 818 2458</span>
             </a>
             <Link
               href="/contact/quote-form"
@@ -93,7 +93,7 @@ export default function PillarNav() {
 
           {/* Mobile right */}
           <div className="flex lg:hidden items-center gap-2">
-            <a href="tel:08001234567" className="p-2 text-navy-700">
+            <a href="tel:+441618182458" className="p-2 text-navy-700">
               <Phone className="h-5 w-5" />
             </a>
             <button onClick={() => setMobileOpen(!mobileOpen)} className="p-2 text-navy-900">
@@ -159,8 +159,8 @@ export default function PillarNav() {
               ))}
             </div>
             <div className="pt-3 mt-2 border-t border-slate-100 space-y-2 px-4">
-              <a href="tel:08001234567" className="flex items-center justify-center gap-2 text-navy-700 text-sm font-semibold py-3 rounded-lg border border-slate-200 hover:bg-slate-50">
-                <Phone className="h-4 w-4" /> 0800 123 4567
+              <a href="tel:+441618182458" className="flex items-center justify-center gap-2 text-navy-700 text-sm font-semibold py-3 rounded-lg border border-slate-200 hover:bg-slate-50">
+                <Phone className="h-4 w-4" /> 0161 818 2458
               </a>
               <Link href="/contact/quote-form" onClick={() => setMobileOpen(false)} className="block bg-gold-500 text-white text-sm font-bold text-center py-3 rounded-lg hover:bg-gold-600">
                 CLAIM NOW

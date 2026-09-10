@@ -41,7 +41,7 @@ export default function StructuralFaultsPage() {
               Start Your Structural Claim
               <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="tel:08001234567" className="inline-flex items-center gap-2 btn-gold-outline">
+            <a href="tel:+441618182458" className="inline-flex items-center gap-2 btn-gold-outline">
               <Phone className="h-4 w-4" />
               Call Free
             </a>
@@ -145,7 +145,7 @@ export default function StructuralFaultsPage() {
                 Start Your Claim
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              <a href="tel:08001234567" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-4 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+441618182458" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-4 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-4 w-4" />
                 Call Free
               </a>
