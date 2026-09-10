@@ -480,7 +480,7 @@ export default function EligibilityForm() {
                           className="mt-1 w-4 h-4 text-gold-600 border-slate-300 rounded focus:ring-gold-500"
                         />
                         <span className="text-sm text-navy-600">
-                          I consent to The Compensation People processing my
+                          I consent to Fusion Edge Solutions processing my
                           personal data to handle my housing disrepair enquiry.
                           I understand my data will be shared with regulated
                           panel solicitors for the purpose of pursuing my claim.
@@ -504,7 +504,7 @@ export default function EligibilityForm() {
                     <div className="bg-slate-50 rounded-xl p-4 mt-4 border border-slate-100">
                       <p className="text-xs text-navy-500 leading-relaxed">
                         <strong className="text-navy-700">FCA Notice:</strong>{" "}
-                        The Compensation People is not authorised or regulated
+                        Fusion Edge Solutions is not authorised or regulated
                         by the Financial Conduct Authority. Compensation claims
                         are handled by independent solicitors who are authorised
                         and regulated by the Solicitors Regulation Authority.

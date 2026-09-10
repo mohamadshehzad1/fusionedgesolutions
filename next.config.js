@@ -88,11 +88,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/team",
-        destination: "/solicitors",
-        permanent: true,
-      },
-      {
         source: "/legal",
         destination: "/housing-disrepair-claims/fitness-for-human-habitation-act",
         permanent: true,

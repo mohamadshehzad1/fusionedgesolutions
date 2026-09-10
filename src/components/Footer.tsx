@@ -38,7 +38,7 @@ export default function Footer() {
                 <Shield className="h-5 w-5 text-white" />
               </div>
               <div>
-                <span className="text-xl font-extrabold tracking-tight block leading-tight">The Compensation People</span>
+                <span className="text-xl font-extrabold tracking-tight block leading-tight">Fusion Edge Solutions</span>
                 <span className="text-[10px] text-slate-400 font-medium tracking-widest uppercase">Housing Disrepair Claims</span>
               </div>
             </div>
@@ -51,8 +51,8 @@ export default function Footer() {
               <a href="tel:08001234567" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
                 <Phone className="h-4 w-4" /> 0800 123 4567
               </a>
-              <a href="mailto:info@thecompensationpeople.co.uk" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
-                <Mail className="h-4 w-4" /> info@thecompensationpeople.co.uk
+              <a href="mailto:info@fusionedgesolutions.co.uk" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
+                <Mail className="h-4 w-4" /> info@fusionedgesolutions.co.uk
               </a>
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4" /> Mon–Fri, 9am–6pm
@@ -104,7 +104,6 @@ export default function Footer() {
             <ul className="space-y-2.5 text-sm text-slate-400">
               {[
                 { label: "About Us", href: "/about-us/attorneys" },
-                { label: "Our Solicitors", href: "/solicitors" },
                 { label: "News & Blog", href: "/blog/housing-disrepair-news" },
                 { label: "Contact Us", href: "/contact/quote-form" },
                 { label: "Terms & Conditions", href: "#" },
@@ -158,12 +157,12 @@ export default function Footer() {
                   Legal Disclaimer & Regulatory Information
                 </h4>
                 <p className="text-slate-400 text-xs leading-relaxed">
-                  The Compensation People is a trading name used for lead generation
+                  Fusion Edge Solutions is a trading name used for lead generation
                   purposes in connection with housing disrepair claims. Claims are
                   referred to and handled by regulated panel solicitors authorised
                   and regulated by the Solicitors Regulation Authority (SRA),
                   working on a Conditional Fee Agreement (No Win, No Fee) basis.
-                  The Compensation People is not a law firm, does not hold a
+                  Fusion Edge Solutions is not a law firm, does not hold a
                   practising certificate, and does not provide legal advice.
                   Compensation figures quoted on this website are illustrative
                   estimates based on previous claim outcomes and are not guarantees
@@ -180,7 +179,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs gap-4">
-            <p>&copy; {new Date().getFullYear()} The Compensation People. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Fusion Edge Solutions. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a href="#" className="hover:text-gold-400 transition-colors">Sitemap</a>
               <a href="#" className="hover:text-gold-400 transition-colors">Accessibility</a>

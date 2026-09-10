@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "Is this a real law firm?",
-    a: "The Compensation People is a lead generation service that connects you with regulated panel solicitors. Your claim will be handled by solicitors authorised and regulated by the Solicitors Regulation Authority (SRA).",
+    a: "Fusion Edge Solutions is a lead generation service that connects you with regulated panel solicitors. Your claim will be handled by solicitors authorised and regulated by the Solicitors Regulation Authority (SRA).",
   },
 ];
 

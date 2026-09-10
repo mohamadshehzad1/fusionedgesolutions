@@ -15,7 +15,7 @@ export function generatePageMetadata({
   keywords = [],
   path,
 }: Omit<PageSEOProps, "schema">): Metadata {
-  const url = `https://www.thecompensationpeople.co.uk${path}`;
+  const url = `https://www.fusionedgesolutions.co.uk${path}`;
 
   return {
     title,
@@ -32,7 +32,7 @@ export function generatePageMetadata({
       url,
       type: "website",
       locale: "en_GB",
-      siteName: "The Compensation People",
+      siteName: "Fusion Edge Solutions",
     },
     twitter: {
       card: "summary_large_image",
@@ -58,7 +58,7 @@ export function WebPageSchema({
   description: string;
   path: string;
 }) {
-  const url = `https://www.thecompensationpeople.co.uk${path}`;
+  const url = `https://www.fusionedgesolutions.co.uk${path}`;
 
   const schema = {
     "@context": "https://schema.org",
@@ -69,8 +69,8 @@ export function WebPageSchema({
     inLanguage: "en-GB",
     isPartOf: {
       "@type": "WebSite",
-      name: "The Compensation People",
-      url: "https://www.thecompensationpeople.co.uk",
+      name: "Fusion Edge Solutions",
+      url: "https://www.fusionedgesolutions.co.uk",
     },
     about: {
       "@type": "Thing",
@@ -99,7 +99,7 @@ export function BreadcrumbSchema({
       "@type": "ListItem",
       position: i + 1,
       name: item.name,
-      item: `https://www.thecompensationpeople.co.uk${item.url}`,
+      item: `https://www.fusionedgesolutions.co.uk${item.url}`,
     })),
   };
 
@@ -125,11 +125,11 @@ export function ServiceSchema({
     "@type": "Service",
     name,
     description,
-    url: `https://www.thecompensationpeople.co.uk${url}`,
+    url: `https://www.fusionedgesolutions.co.uk${url}`,
     provider: {
       "@type": "LegalService",
-      name: "The Compensation People",
-      url: "https://www.thecompensationpeople.co.uk",
+      name: "Fusion Edge Solutions",
+      url: "https://www.fusionedgesolutions.co.uk",
     },
     areaServed: {
       "@type": "Country",

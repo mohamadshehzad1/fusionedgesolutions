@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import { Newspaper, Calendar, ArrowRight, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Housing Disrepair News & Tenant Rights Blog | The Compensation People",
+  title: "Housing Disrepair News & Tenant Rights Blog | Fusion Edge Solutions",
   description:
     "Stay up to date with housing disrepair news, tenant rights updates, Awaab's Law developments, and expert legal guidance for UK social housing tenants.",
 };

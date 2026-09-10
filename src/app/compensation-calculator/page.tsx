@@ -72,7 +72,7 @@ export default function CompensationCalculatorStandalone() {
             "@type": "WebPage",
             name: "Housing Disrepair Compensation Calculator",
             description: "Get an estimated compensation range for your housing disrepair claim.",
-            url: "https://www.thecompensationpeople.co.uk/compensation-calculator",
+            url: "https://www.fusionedgesolutions.co.uk/compensation-calculator",
           }) }}
         />
 
