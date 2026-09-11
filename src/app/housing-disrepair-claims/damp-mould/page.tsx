@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import PillarNav, { Breadcrumbs } from "@/components/PillarNav";
 import Footer from "@/components/Footer";
@@ -58,7 +58,7 @@ export default function DampMouldPage() {
               Start Your Damp & Mould Claim
               <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="tel:+441612437500" className="inline-flex items-center gap-2 btn-gold-outline">
+            <a href="tel:+443301233309" className="inline-flex items-center gap-2 btn-gold-outline">
               <Phone className="h-4 w-4" />
               Call Free
             </a>
@@ -155,7 +155,7 @@ export default function DampMouldPage() {
                 Start Your Claim
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              <a href="tel:+441612437500" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-4 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+443301233309" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-4 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-4 w-4" />
                 Call Free
               </a>

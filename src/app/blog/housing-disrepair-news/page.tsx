@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import PillarNav, { Breadcrumbs } from "@/components/PillarNav";
@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import { Newspaper, Calendar, ArrowRight, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Housing Disrepair News & Tenant Rights Blog | Fusion Edge Solutions",
+  title: "Housing Disrepair News & Tenant Rights Blog | The Compensation People",
   description:
     "Stay up to date with housing disrepair news, tenant rights updates, Awaab's Law developments, and expert legal guidance for UK social housing tenants.",
 };

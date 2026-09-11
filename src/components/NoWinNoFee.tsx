@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -65,7 +65,7 @@ export default function NoWinNoFee() {
 
             <div className="bg-slate-50 rounded-xl p-5 mb-8 border border-slate-100">
               <p className="text-navy-700 font-medium text-sm italic">
-                &ldquo;At Fusion Edge Solutions, we work on a strictly
+                &ldquo;At The Compensation People, we work on a strictly
                 no-win, no-fee basis. If you would like to find out if you can
                 make a claim, or have any questions about the process, please
                 don&apos;t hesitate to contact our housing disrepair team
@@ -82,11 +82,11 @@ export default function NoWinNoFee() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <a
-                href="tel:+441612437500"
+                href="tel:+443301233309"
                 className="inline-flex items-center gap-2 btn-gold-outline"
               >
                 <Phone className="h-4 w-4" />
-                Call Free: 0161 243 7500
+                Call Free: 0330 123 3309
               </a>
             </div>
 

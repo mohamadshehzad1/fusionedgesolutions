@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import PillarNav, { Breadcrumbs } from "@/components/PillarNav";
@@ -102,9 +102,9 @@ export default function ServicesPage() {
               Start Your Claim
               <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="tel:+441612437500" className="inline-flex items-center gap-2 btn-gold-outline">
+            <a href="tel:+443301233309" className="inline-flex items-center gap-2 btn-gold-outline">
               <Phone className="h-4 w-4" />
-              Call Free: 0161 243 7500
+              Call Free: 0330 123 3309
             </a>
           </div>
         </section>
@@ -181,7 +181,7 @@ export default function ServicesPage() {
         {/* Why Choose Us */}
         <section className="pb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-navy-900 mb-10 text-center">
-            Why Choose Fusion Edge Solutions?
+            Why Choose The Compensation People?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -230,9 +230,9 @@ export default function ServicesPage() {
                 Start Your Claim
                 <ArrowRight className="h-5 w-5" />
               </Link>
-              <a href="tel:+441612437500" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+443301233309" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-5 w-5" />
-                Call Free: 0161 243 7500
+                Call Free: 0330 123 3309
               </a>
             </div>
           </div>

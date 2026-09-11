@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -218,7 +218,7 @@ export default function QuoteFormPage() {
                       <div><label className="label-text">Describe Your Issue</label><textarea {...register("description")} className="input-field" rows={3} placeholder="Tell us about the disrepair in your home..." />{errors.description && <p className="error-text">{errors.description.message}</p>}</div>
                       <label className="flex items-start gap-3 cursor-pointer">
                         <input type="checkbox" {...register("gdprConsent")} className="mt-1 w-4 h-4 text-gold-600 border-slate-300 rounded focus:ring-gold-500" />
-                        <span className="text-sm text-navy-600">I consent to Fusion Edge Solutions processing my data. View our <a href="#" className="text-gold-600 hover:underline">Privacy Policy</a>.</span>
+                        <span className="text-sm text-navy-600">I consent to The Compensation People processing my data. View our <a href="#" className="text-gold-600 hover:underline">Privacy Policy</a>.</span>
                       </label>
                       {errors.gdprConsent && <p className="error-text">{errors.gdprConsent.message}</p>}
                     </div>
@@ -242,9 +242,9 @@ export default function QuoteFormPage() {
           </form>
 
           <div className="mt-8 text-center">
-            <a href="tel:+441612437500" className="inline-flex items-center gap-2 text-navy-600 hover:text-gold-600 font-semibold">
+            <a href="tel:+443301233309" className="inline-flex items-center gap-2 text-navy-600 hover:text-gold-600 font-semibold">
               <Phone className="h-4 w-4" />
-              Prefer to call? 0161 243 7500
+              Prefer to call? 0330 123 3309
             </a>
           </div>
         </div>

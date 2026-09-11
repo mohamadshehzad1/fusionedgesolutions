@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Phone, ArrowRight } from "lucide-react";
 
@@ -7,7 +7,7 @@ export default function FloatingCTA() {
     <div className="fixed bottom-0 left-0 right-0 md:hidden bg-navy-900 border-t border-navy-700 z-50 safe-bottom">
       <div className="flex">
         <a
-          href="tel:+441612437500"
+          href="tel:+443301233309"
           className="flex-1 flex items-center justify-center gap-2 py-4 bg-navy-800 text-white font-semibold text-sm hover:bg-navy-700 transition-colors"
         >
           <Phone className="h-5 w-5" />

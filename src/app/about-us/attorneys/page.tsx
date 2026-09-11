@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import PillarNav, { Breadcrumbs } from "@/components/PillarNav";
 import Footer from "@/components/Footer";
@@ -6,9 +6,9 @@ import { WebPageSchema, BreadcrumbSchema } from "@/lib/seo";
 import { Shield, Phone, Scale, Users, Award, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | Fusion Edge Solutions - Housing Disrepair Solicitors",
+  title: "About Us | The Compensation People - Housing Disrepair Solicitors",
   description:
-    "Meet the team at Fusion Edge Solutions. Expert housing disrepair solicitors fighting for UK tenants' rights. No Win, No Fee.",
+    "Meet the team at The Compensation People. Expert housing disrepair solicitors fighting for UK tenants' rights. No Win, No Fee.",
 };
 
 const team = [
@@ -38,7 +38,7 @@ const values = [
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-slate-50">
-      <WebPageSchema title="About Us" description="Meet the team at Fusion Edge Solutions." path="/about-us/attorneys" />
+      <WebPageSchema title="About Us" description="Meet the team at The Compensation People." path="/about-us/attorneys" />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },
         { name: "About Us", url: "/about-us/attorneys" },
@@ -49,7 +49,7 @@ export default function AboutPage() {
 
         <section className="py-12 md:py-16 max-w-4xl">
           <h1 className="text-3xl md:text-5xl font-extrabold text-navy-900 leading-tight mb-6">
-            About Fusion Edge Solutions
+            About The Compensation People
           </h1>
           <p className="text-lg text-navy-600 leading-relaxed mb-8">
             We are dedicated to helping UK social housing tenants get the repairs
@@ -108,7 +108,7 @@ export default function AboutPage() {
                 Free Assessment
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              <a href="tel:+441612437500" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-4 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+443301233309" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-4 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-4 w-4" />
                 Call Free
               </a>

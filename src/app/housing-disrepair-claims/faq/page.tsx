@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "Is this a real law firm?",
-    a: "Fusion Edge Solutions is a lead generation service that connects you with regulated panel solicitors. Your claim will be handled by specialist solicitors who work on a No Win, No Fee basis.",
+    a: "The Compensation People is a lead generation service that connects you with regulated panel solicitors. Your claim will be handled by specialist solicitors who work on a No Win, No Fee basis.",
   },
 ];
 
@@ -134,7 +134,7 @@ export default function FAQPage() {
                 Get in Touch
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              <a href="tel:+441612437500" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-3 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+443301233309" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-8 py-3 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-4 w-4" />
                 Call Free
               </a>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { Shield, Phone, Mail, Clock, Check } from "lucide-react";
 
 export default function Footer() {
@@ -12,8 +12,8 @@ export default function Footer() {
               <Phone className="h-6 w-6" />
               <span className="text-lg font-bold">
                 Need housing disrepair advice? Call our team on{" "}
-                <a href="tel:+441612437500" className="underline decoration-2 underline-offset-2">
-                  0161 243 7500
+                <a href="tel:+443301233309" className="underline decoration-2 underline-offset-2">
+                  0330 123 3309
                 </a>
               </span>
             </div>
@@ -37,7 +37,7 @@ export default function Footer() {
                 <Shield className="h-5 w-5 text-white" />
               </div>
               <div>
-                <span className="text-xl font-extrabold tracking-tight block leading-tight">Fusion Edge Solutions</span>
+                <span className="text-xl font-extrabold tracking-tight block leading-tight">The Compensation People</span>
                 <span className="text-[10px] text-slate-400 font-medium tracking-widest uppercase">Housing Disrepair Claims</span>
               </div>
             </div>
@@ -47,11 +47,11 @@ export default function Footer() {
               No Win, No Fee.
             </p>
             <div className="space-y-3 text-sm text-slate-400">
-              <a href="tel:+441612437500" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
-                <Phone className="h-4 w-4" /> 0161 243 7500
+              <a href="tel:+443301233309" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
+                <Phone className="h-4 w-4" /> 0330 123 3309
               </a>
-              <a href="mailto:admin@fusionedgesolutions.co.uk" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
-                <Mail className="h-4 w-4" /> admin@fusionedgesolutions.co.uk
+              <a href="mailto:info@thecompensationpeopleltd.co.uk" className="flex items-center gap-2 hover:text-gold-400 transition-colors">
+                <Mail className="h-4 w-4" /> info@thecompensationpeopleltd.co.uk
               </a>
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4" /> Mon–Fri, 9am–6pm
@@ -139,7 +139,7 @@ export default function Footer() {
 
         <div className="border-t border-navy-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs gap-4">
-            <p>&copy; {new Date().getFullYear()} Fusion Edge Solutions. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} The Compensation People. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a href="#" className="hover:text-gold-400 transition-colors">Sitemap</a>
               <a href="#" className="hover:text-gold-400 transition-colors">Accessibility</a>
