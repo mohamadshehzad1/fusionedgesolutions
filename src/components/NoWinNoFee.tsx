@@ -95,7 +95,6 @@ export default function NoWinNoFee() {
                 "No upfront costs",
                 "No hidden fees",
                 "Free initial assessment",
-                "SRA regulated solicitors",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 text-sm text-navy-700">
                   <Check className="h-4 w-4 text-gold-500 flex-shrink-0" />

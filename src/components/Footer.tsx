@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Shield, Phone, Mail, MapPin, Clock, Check, Award, ExternalLink } from "lucide-react";
+import { Shield, Phone, Mail, Clock, Check } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -123,7 +122,6 @@ export default function Footer() {
         <div className="border-t border-navy-700 pt-10 mb-10">
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 mb-8">
             {[
-              { icon: Award, label: "SRA Regulated Solicitors" },
               { icon: Check, label: "No Win, No Fee" },
               { icon: Shield, label: "Data Protection Compliant" },
               { icon: Check, label: "500+ Successful Claims" },
@@ -139,45 +137,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Legal Disclaimer */}
         <div className="border-t border-navy-700 pt-8">
-          <div className="bg-navy-800/80 rounded-2xl p-5 md:p-6 mb-8">
-            <div className="flex flex-col md:flex-row gap-6 items-start">
-              <div className="flex-shrink-0">
-                <Image
-                  src="/fca.jpg"
-                  alt="FCA Authorised"
-                  width={80}
-                  height={80}
-                  className="rounded-lg opacity-80"
-                />
-              </div>
-              <div className="flex-1">
-                <h4 className="font-bold text-sm mb-2 text-slate-200">
-                  Legal Disclaimer & Regulatory Information
-                </h4>
-                <p className="text-slate-400 text-xs leading-relaxed">
-                  Fusion Edge Solutions is a trading name used for lead generation
-                  purposes in connection with housing disrepair claims. Claims are
-                  referred to and handled by regulated panel solicitors authorised
-                  and regulated by the Solicitors Regulation Authority (SRA),
-                  working on a Conditional Fee Agreement (No Win, No Fee) basis.
-                  Fusion Edge Solutions is not a law firm, does not hold a
-                  practising certificate, and does not provide legal advice.
-                  Compensation figures quoted on this website are illustrative
-                  estimates based on previous claim outcomes and are not guarantees
-                  of results. By submitting any form on this website, you consent
-                  to being contacted about your housing disrepair claim via
-                  telephone, email, or SMS. Your data will be processed in
-                  accordance with the UK General Data Protection Regulation (UK
-                  GDPR) and the Data Protection Act 2018. We will never sell your
-                  data to third parties. Full details are available in our{" "}
-                  <a href="#" className="text-gold-400 hover:underline">Privacy Policy</a>.
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div className="flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs gap-4">
             <p>&copy; {new Date().getFullYear()} Fusion Edge Solutions. All rights reserved.</p>
             <div className="flex items-center gap-4">

@@ -501,18 +501,7 @@ export default function EligibilityForm() {
                       )}
                     </div>
 
-                    <div className="bg-slate-50 rounded-xl p-4 mt-4 border border-slate-100">
-                      <p className="text-xs text-navy-500 leading-relaxed">
-                        <strong className="text-navy-700">FCA Notice:</strong>{" "}
-                        Fusion Edge Solutions is not authorised or regulated
-                        by the Financial Conduct Authority. Compensation claims
-                        are handled by independent solicitors who are authorised
-                        and regulated by the Solicitors Regulation Authority.
-                        No Win No Fee arrangements are subject to successful
-                        claim outcomes and terms will be explained by your
-                        solicitor before any agreement is signed.
-                      </p>
-                    </div>
+                    
                   </div>
                 </motion.div>
               )}

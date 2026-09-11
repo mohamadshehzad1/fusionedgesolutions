@@ -92,7 +92,7 @@ export default function ServicesPage() {
             Housing Disrepair Claims Services
           </h1>
           <p className="text-lg md:text-xl text-navy-600 leading-relaxed mb-8">
-            Our panel of SRA-regulated solicitors specialises in housing disrepair
+            Our panel of specialist solicitors handles housing disrepair
             claims against councils and housing associations across England and
             Wales. We handle all types of disrepair — from damp and mould to
             structural defects.
@@ -193,7 +193,7 @@ export default function ServicesPage() {
               {
                 icon: Users,
                 title: "Expert Solicitors",
-                description: "Your claim is handled by SRA-regulated solicitors who specialise exclusively in housing disrepair claims.",
+                description: "Your claim is handled by specialist solicitors who focus exclusively on housing disrepair claims.",
               },
               {
                 icon: Check,

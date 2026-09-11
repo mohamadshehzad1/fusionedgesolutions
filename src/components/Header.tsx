@@ -66,10 +66,8 @@ export default function Header() {
           <div className="flex items-center gap-5 text-[11px] text-slate-500">
             <span className="flex items-center gap-1">
               <Shield className="h-3 w-3 text-gold-500" />
-              SRA Regulated
+              No Win, No Fee
             </span>
-            <span className="w-px h-3 bg-slate-200" />
-            <span>No Win, No Fee</span>
             <span className="w-px h-3 bg-slate-200" />
             <span>Free Assessment</span>
             <span className="w-px h-3 bg-slate-200" />
