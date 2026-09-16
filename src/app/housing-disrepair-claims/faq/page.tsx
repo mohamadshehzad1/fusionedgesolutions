@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "Is this a real law firm?",
-    a: "Fusion Edge Solutions is a lead generation service that connects you with regulated panel solicitors. Your claim will be handled by specialist solicitors who work on a No Win, No Fee basis.",
+    a: "The Compensation People is a lead generation service that connects you with regulated panel solicitors. Your claim will be handled by specialist solicitors who work on a No Win, No Fee basis.",
   },
 ];
 

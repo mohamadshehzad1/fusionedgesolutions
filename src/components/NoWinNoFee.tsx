@@ -65,7 +65,7 @@ export default function NoWinNoFee() {
 
             <div className="bg-slate-50 rounded-xl p-5 mb-8 border border-slate-100">
               <p className="text-navy-700 font-medium text-sm italic">
-                &ldquo;At Fusion Edge Solutions, we work on a strictly
+                &ldquo;At The Compensation People, we work on a strictly
                 no-win, no-fee basis. If you would like to find out if you can
                 make a claim, or have any questions about the process, please
                 don&apos;t hesitate to contact our housing disrepair team

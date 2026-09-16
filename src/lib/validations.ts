@@ -30,14 +30,10 @@ export const leadFormSchema = z.object({
       "Please enter a valid UK phone number (e.g., 07700900000)"
     ),
   email: z.string().email("Please enter a valid email address"),
-  postcode: z
+  address: z
     .string()
-    .min(5, "Please enter a valid UK postcode")
-    .max(8, "Please enter a valid UK postcode")
-    .regex(
-      /^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$/i,
-      "Please enter a valid UK postcode"
-    ),
+    .min(5, "Please enter your full address")
+    .max(200, "Address must be less than 200 characters"),
   gdprConsent: z.literal(true, {
     errorMap: () => ({
       message: "You must consent to our privacy policy to proceed",

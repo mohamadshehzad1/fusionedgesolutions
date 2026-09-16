@@ -458,16 +458,16 @@ export default function EligibilityForm() {
                     </div>
 
                     <div>
-                      <label className="label-text">UK Postcode</label>
+                      <label className="label-text">Address</label>
                       <input
                         type="text"
-                        {...register("postcode")}
+                        {...register("address")}
                         className="input-field"
-                        placeholder="SW1A 1AA"
+                        placeholder="123 Example Street, Manchester"
                       />
-                      {errors.postcode && (
+                      {errors.address && (
                         <p className="error-text">
-                          {errors.postcode.message}
+                          {errors.address.message}
                         </p>
                       )}
                     </div>
@@ -480,7 +480,7 @@ export default function EligibilityForm() {
                           className="mt-1 w-4 h-4 text-gold-600 border-slate-300 rounded focus:ring-gold-500"
                         />
                         <span className="text-sm text-navy-600">
-                          I consent to Fusion Edge Solutions processing my
+                          I consent to The Compensation People processing my
                           personal data to handle my housing disrepair enquiry.
                           I understand my data will be shared with regulated
                           panel solicitors for the purpose of pursuing my claim.

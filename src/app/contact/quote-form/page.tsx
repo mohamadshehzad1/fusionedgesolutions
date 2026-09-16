@@ -30,7 +30,7 @@ const quoteSchema = z.object({
   lastName: z.string().min(2, "Last name must be at least 2 characters"),
   phone: z.string().min(10, "Please enter a valid UK phone number").regex(/^(\+44|0)\d{10}$/, "Enter a valid UK phone number"),
   email: z.string().email("Please enter a valid email address"),
-  postcode: z.string().min(5, "Please enter a valid UK postcode").regex(/^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$/i, "Enter a valid UK postcode"),
+  address: z.string().min(5, "Please enter your full address").max(200, "Address must be less than 200 characters"),
   description: z.string().min(10, "Please describe your issue in at least 10 characters"),
   gdprConsent: z.literal(true, { errorMap: () => ({ message: "You must consent to proceed" }) }),
 });
@@ -214,11 +214,11 @@ export default function QuoteFormPage() {
                       </div>
                       <div><label className="label-text">Phone</label><input {...register("phone")} className="input-field" placeholder="07700 900 000" />{errors.phone && <p className="error-text">{errors.phone.message}</p>}</div>
                       <div><label className="label-text">Email</label><input {...register("email")} className="input-field" placeholder="john@example.co.uk" />{errors.email && <p className="error-text">{errors.email.message}</p>}</div>
-                      <div><label className="label-text">Postcode</label><input {...register("postcode")} className="input-field" placeholder="SW1A 1AA" />{errors.postcode && <p className="error-text">{errors.postcode.message}</p>}</div>
+                      <div><label className="label-text">Address</label><input {...register("address")} className="input-field" placeholder="123 Example Street, Manchester" />{errors.address && <p className="error-text">{errors.address.message}</p>}</div>
                       <div><label className="label-text">Describe Your Issue</label><textarea {...register("description")} className="input-field" rows={3} placeholder="Tell us about the disrepair in your home..." />{errors.description && <p className="error-text">{errors.description.message}</p>}</div>
                       <label className="flex items-start gap-3 cursor-pointer">
                         <input type="checkbox" {...register("gdprConsent")} className="mt-1 w-4 h-4 text-gold-600 border-slate-300 rounded focus:ring-gold-500" />
-                        <span className="text-sm text-navy-600">I consent to Fusion Edge Solutions processing my data. View our <a href="#" className="text-gold-600 hover:underline">Privacy Policy</a>.</span>
+                        <span className="text-sm text-navy-600">I consent to The Compensation People processing my data. View our <a href="#" className="text-gold-600 hover:underline">Privacy Policy</a>.</span>
                       </label>
                       {errors.gdprConsent && <p className="error-text">{errors.gdprConsent.message}</p>}
                     </div>
