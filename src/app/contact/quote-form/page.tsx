@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -242,9 +242,9 @@ export default function QuoteFormPage() {
           </form>
 
           <div className="mt-8 text-center">
-            <a href="tel:+443301233309" className="inline-flex items-center gap-2 text-navy-600 hover:text-gold-600 font-semibold">
+            <a href="tel:+441612437500" className="inline-flex items-center gap-2 text-navy-600 hover:text-gold-600 font-semibold">
               <Phone className="h-4 w-4" />
-              Prefer to call? 0330 123 3309
+              Prefer to call? 0161 243 7500
             </a>
           </div>
         </div>

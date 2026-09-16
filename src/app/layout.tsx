@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -60,7 +60,7 @@ const legalServiceSchema = {
   description:
     "Expert housing disrepair claims services for UK council and housing association tenants. No Win, No Fee.",
   url: "https://www.fusionedgesolutionsltd.co.uk",
-  telephone: "+443301233309",
+  telephone: "+441612437500",
   email: "admin@fusionedgesolutionsltd.co.uk",
   address: {
     "@type": "PostalAddress",
@@ -132,7 +132,7 @@ const organizationSchema = {
   logo: "https://www.fusionedgesolutionsltd.co.uk/logo.png",
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+443301233309",
+    telephone: "+441612437500",
     contactType: "customer service",
     availableLanguage: "English",
   },

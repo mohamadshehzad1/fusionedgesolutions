@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import PillarNav, { Breadcrumbs } from "@/components/PillarNav";
 import Footer from "@/components/Footer";
@@ -88,7 +88,7 @@ const topics: Record<string, {
     services: [
       { label: "Electrical Hazards Claims", href: "/services/electrical-hazards-claims" },
       { label: "Compensation Calculator", href: "/compensation-calculator" },
-      { label: "Emergency Call", href: "tel:+443301233309" },
+      { label: "Emergency Call", href: "tel:+441612437500" },
     ],
   },
 };
@@ -156,8 +156,8 @@ export default function TopicPage({ params }: { params: { topic: string } }) {
             <Link href="/contact/quote-form" className="inline-flex items-center gap-2 btn-gold">
               Start Your Claim <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="tel:+443301233309" className="inline-flex items-center gap-2 btn-gold-outline">
-              <Phone className="h-4 w-4" /> Call Free: 0330 123 3309
+            <a href="tel:+441612437500" className="inline-flex items-center gap-2 btn-gold-outline">
+              <Phone className="h-4 w-4" /> Call Free: 0161 243 7500
             </a>
           </div>
         </section>
@@ -184,7 +184,7 @@ export default function TopicPage({ params }: { params: { topic: string } }) {
               <Link href="/contact/quote-form" className="inline-flex items-center gap-2 bg-navy-900 text-white font-bold px-10 py-4 rounded-full hover:bg-navy-800 transition-colors">
                 Start Your Claim <ArrowRight className="h-5 w-5" />
               </Link>
-              <a href="tel:+443301233309" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+441612437500" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-5 w-5" /> Call Free
               </a>
             </div>

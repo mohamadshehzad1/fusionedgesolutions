@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import PillarNav, { Breadcrumbs } from "@/components/PillarNav";
@@ -102,9 +102,9 @@ export default function ServicesPage() {
               Start Your Claim
               <ArrowRight className="h-4 w-4" />
             </Link>
-            <a href="tel:+443301233309" className="inline-flex items-center gap-2 btn-gold-outline">
+            <a href="tel:+441612437500" className="inline-flex items-center gap-2 btn-gold-outline">
               <Phone className="h-4 w-4" />
-              Call Free: 0330 123 3309
+              Call Free: 0161 243 7500
             </a>
           </div>
         </section>
@@ -230,9 +230,9 @@ export default function ServicesPage() {
                 Start Your Claim
                 <ArrowRight className="h-5 w-5" />
               </Link>
-              <a href="tel:+443301233309" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
+              <a href="tel:+441612437500" className="inline-flex items-center gap-2 bg-white text-gold-700 font-bold px-10 py-4 rounded-full hover:bg-gold-50 transition-colors">
                 <Phone className="h-5 w-5" />
-                Call Free: 0330 123 3309
+                Call Free: 0161 243 7500
               </a>
             </div>
           </div>
