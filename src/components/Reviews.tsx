@@ -5,39 +5,39 @@ import { Star, Quote } from "lucide-react";
 
 const reviews = [
   {
-    name: "Sarah M.",
+    name: "Sarah Mitchell",
     location: "Manchester",
     date: "Sept 2026",
     rating: 5,
-    text: "After 18 months of fighting with my council about black mould in my children's bedroom, The Compensation People got everything sorted. Repairs were forced within weeks and I received £4,200 compensation. Absolutely brilliant service.",
+    text: "After 18 months of fighting with my council about black mould in my children's bedroom, Fusion Edge Solutions got everything sorted. Repairs were forced within weeks and I received £4,200 compensation. Absolutely brilliant service.",
   },
   {
-    name: "James T.",
+    name: "James Hartwell",
     location: "Birmingham",
     date: "Aug 2026",
     rating: 5,
     text: "My housing association ignored my complaints about a broken boiler for months. These guys took on my case, No Win No Fee, and got me £3,500 plus a brand new heating system installed. Can't thank them enough.",
   },
   {
-    name: "Fatima K.",
+    name: "Fatima Khalid",
     location: "Leeds",
     date: "July 2026",
     rating: 5,
     text: "I was skeptical at first but the team were fantastic throughout. My damp and mould claim resulted in £5,800 compensation and full property remediation. They really do force landlords to act.",
   },
   {
-    name: "David R.",
+    name: "Chidi Obi",
     location: "London",
     date: "Sept 2026",
     rating: 4,
     text: "Professional and efficient from start to finish. My structural damage claim against the council was settled in under 8 months. Received £6,200 and all repairs were completed. Highly recommend.",
   },
   {
-    name: "Nicola P.",
+    name: "Nicola Pemberton",
     location: "Liverpool",
     date: "Aug 2026",
     rating: 5,
-    text: "The pest infestation in my council flat was making my family ill. The Compensation People got environmental health involved and won me £2,800. The flat is now completely pest-free and properly sealed.",
+    text: "The pest infestation in my council flat was making my family ill. Fusion Edge Solutions got environmental health involved and won me £2,800. The flat is now completely pest-free and properly sealed.",
   },
 ];
 
