@@ -1,12 +1,13 @@
 {
-  "name": "the-compensation-people",
+  "name": "fusion-edge-solutions",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "npx serve@latest out",
+    "lint": "next lint",
+    "cf:preview": "npx wrangler pages dev out --compatibility-date 2024-01-01"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

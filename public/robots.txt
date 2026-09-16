@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.fusionedgesolutionsltd.co.uk/sitemap.xml

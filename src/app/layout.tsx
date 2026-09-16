@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "The Compensation People | Housing Disrepair Claims Solicitors UK",
-    template: "%s | The Compensation People",
+    default: "Fusion Edge Solutions | Housing Disrepair Claims Solicitors UK",
+    template: "%s | Fusion Edge Solutions",
   },
   description:
     "Expert housing disrepair claims solicitors for UK council and housing association tenants. Damp, mould, structural damage, heating, pest & electrical claims. No Win, No Fee. Free assessment. Up to £10,000 compensation.",
@@ -22,18 +22,18 @@ export const metadata: Metadata = {
     "Awaab's Law",
     "Section 11 Landlord and Tenant Act 1985",
   ],
-  authors: [{ name: "The Compensation People" }],
+  authors: [{ name: "Fusion Edge Solutions" }],
   openGraph: {
-    title: "The Compensation People | Housing Disrepair Claims Solicitors",
+    title: "Fusion Edge Solutions | Housing Disrepair Claims Solicitors",
     description:
       "Expert housing disrepair claims for UK tenants. No Win, No Fee. Free assessment. Claim up to £10,000 compensation for damp, mould, structural damage & more.",
     type: "website",
     locale: "en_GB",
-    siteName: "The Compensation People",
+    siteName: "Fusion Edge Solutions",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Compensation People | Housing Disrepair Claims",
+    title: "Fusion Edge Solutions | Housing Disrepair Claims",
     description:
       "Expert housing disrepair claims for UK tenants. No Win, No Fee. Free assessment.",
   },
@@ -49,19 +49,19 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.thecompensationpeopleltd.co.uk",
+    canonical: "https://www.fusionedgesolutionsltd.co.uk",
   },
 };
 
 const legalServiceSchema = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "The Compensation People",
+  name: "Fusion Edge Solutions",
   description:
     "Expert housing disrepair claims services for UK council and housing association tenants. No Win, No Fee.",
-  url: "https://www.thecompensationpeopleltd.co.uk",
+  url: "https://www.fusionedgesolutionsltd.co.uk",
   telephone: "+443301233309",
-  email: "info@thecompensationpeopleltd.co.uk",
+  email: "admin@fusionedgesolutionsltd.co.uk",
   address: {
     "@type": "PostalAddress",
     addressCountry: "GB",
@@ -127,9 +127,9 @@ const legalServiceSchema = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "The Compensation People",
-  url: "https://www.thecompensationpeopleltd.co.uk",
-  logo: "https://www.thecompensationpeopleltd.co.uk/logo.png",
+  name: "Fusion Edge Solutions",
+  url: "https://www.fusionedgesolutionsltd.co.uk",
+  logo: "https://www.fusionedgesolutionsltd.co.uk/logo.png",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+443301233309",

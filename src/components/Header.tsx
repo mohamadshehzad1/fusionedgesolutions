@@ -90,7 +90,7 @@ export default function Header() {
             </div>
             <div className="leading-none">
               <span className="text-base font-extrabold text-navy-900 block leading-tight tracking-tight">
-                The Compensation People
+                Fusion Edge Solutions
               </span>
               <span className="text-[9px] text-navy-400 font-medium tracking-widest uppercase">
                 Housing Disrepair Claims

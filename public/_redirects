@@ -1,0 +1,15 @@
+/claim                 /contact/quote-form  301
+/eligibility           /contact/quote-form  301
+/check                 /compensation-calculator  301
+/about                 /about-us/attorneys  301
+/legal                 /housing-disrepair-claims/fitness-for-human-habitation-act  301
+/damp-mould            /services/damp-and-mould-claims  301
+/heating               /services/heating-and-boiler-claims  301
+/structural            /services/structural-disrepair-claims  301
+/pests                 /services/pest-infestation-claims  301
+/housing-disrepair/damp-mould    /services/damp-and-mould-claims  301
+/housing-disrepair/heating       /services/heating-and-boiler-claims  301
+/housing-disrepair/structural    /services/structural-disrepair-claims  301
+/housing-disrepair/pests         /services/pest-infestation-claims  301
+/housing-disrepair/calculator    /compensation-calculator  301
+/housing-disrepair/rights        /housing-disrepair-claims/fitness-for-human-habitation-act  301

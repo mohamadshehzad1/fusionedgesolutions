@@ -9,7 +9,7 @@ const reviews = [
     location: "Manchester",
     date: "Sept 2026",
     rating: 5,
-    text: "After 18 months of fighting with my council about black mould in my children's bedroom, The Compensation People got everything sorted. Repairs were forced within weeks and I received £4,200 compensation. Absolutely brilliant service.",
+    text: "After 18 months of fighting with my council about black mould in my children's bedroom, Fusion Edge Solutions got everything sorted. Repairs were forced within weeks and I received £4,200 compensation. Absolutely brilliant service.",
   },
   {
     name: "James Hartwell",
@@ -37,7 +37,7 @@ const reviews = [
     location: "Liverpool",
     date: "Aug 2026",
     rating: 5,
-    text: "The pest infestation in my council flat was making my family ill. The Compensation People got environmental health involved and won me £2,800. The flat is now completely pest-free and properly sealed.",
+    text: "The pest infestation in my council flat was making my family ill. Fusion Edge Solutions got environmental health involved and won me £2,800. The flat is now completely pest-free and properly sealed.",
   },
 ];
 

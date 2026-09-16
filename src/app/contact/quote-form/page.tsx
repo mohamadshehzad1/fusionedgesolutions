@@ -218,7 +218,7 @@ export default function QuoteFormPage() {
                       <div><label className="label-text">Describe Your Issue</label><textarea {...register("description")} className="input-field" rows={3} placeholder="Tell us about the disrepair in your home..." />{errors.description && <p className="error-text">{errors.description.message}</p>}</div>
                       <label className="flex items-start gap-3 cursor-pointer">
                         <input type="checkbox" {...register("gdprConsent")} className="mt-1 w-4 h-4 text-gold-600 border-slate-300 rounded focus:ring-gold-500" />
-                        <span className="text-sm text-navy-600">I consent to The Compensation People processing my data. View our <a href="#" className="text-gold-600 hover:underline">Privacy Policy</a>.</span>
+                        <span className="text-sm text-navy-600">I consent to Fusion Edge Solutions processing my data. View our <a href="#" className="text-gold-600 hover:underline">Privacy Policy</a>.</span>
                       </label>
                       {errors.gdprConsent && <p className="error-text">{errors.gdprConsent.message}</p>}
                     </div>
