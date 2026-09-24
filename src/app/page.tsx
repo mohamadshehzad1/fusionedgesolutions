@@ -5,7 +5,6 @@ import DisrepairTypes from "@/components/DisrepairTypes";
 import ValueProp from "@/components/ValueProp";
 import NoWinNoFee from "@/components/NoWinNoFee";
 import HomepageCalculator from "@/components/HomepageCalculator";
-import Reviews from "@/components/Reviews";
 import NewsSection from "@/components/NewsSection";
 import CtaBanner from "@/components/CtaBanner";
 import Footer from "@/components/Footer";
@@ -27,7 +26,6 @@ export default function Home() {
       <NoWinNoFee />
       <DisrepairTypes />
       <HomepageCalculator />
-      <Reviews />
       <NewsSection />
       <CtaBanner />
 
